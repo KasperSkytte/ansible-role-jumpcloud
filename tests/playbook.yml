@@ -45,7 +45,7 @@
       changed_when: output.stdout | length == 0
 
   roles:
-      - { role: ansible-jumpcloud }
+      - { role: ansible-role-jumpcloud }
 
   tasks:
       - include_tasks: tasks/test_tasks.yml

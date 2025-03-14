@@ -1,7 +1,7 @@
 ---
 
 - include_role:
-    name: ansible-jumpcloud
+    name: ansible-role-jumpcloud
     tasks_from: check_system_registration
 
 - name: Check that the host has been added to JumpCloud

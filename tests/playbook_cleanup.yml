@@ -10,7 +10,7 @@
 
   tasks:
     - include_role:
-        name: ansible-jumpcloud
+        name: ansible-role-jumpcloud
         tasks_from: remove_registered_systems
 
     - name: Remove Docker containers
